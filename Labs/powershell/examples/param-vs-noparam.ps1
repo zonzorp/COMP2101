@@ -1,0 +1,3 @@
+﻿function Get-Docs ([string]$DocsPath=".") {     Get-ChildItem -Path $DocsPath `                   -Include *.txt,*.doc,*.docx,*.pdf,*.xls,*.ppt,*.ps1 `                   -Recurse `                   -ErrorAction SilentlyContinue } 
+function Get-Docs {
+    param ([string]$DocsPath=".")     Get-ChildItem -Path $DocsPath `                   -Include *.txt,*.doc,*.docx,*.pdf,*.xls,*.ppt,*.ps1 `                   -Recurse `                   -ErrorAction SilentlyContinue } 

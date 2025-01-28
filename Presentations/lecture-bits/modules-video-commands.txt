@@ -1,0 +1,64 @@
+$myhome = "\\mac\home"
+
+
+$env:PSModulePath
+
+get-module -ListAvailable
+
+mkdir $myhome/Documents/WindowsPowershell |out-null
+mkdir $myhome/Documents/WindowsPowershell/Modules |out-null
+mkdir $myhome/Documents/WindowsPowershell/Modules/SystemInfoFuncs |out-null
+
+"
+function Get-BIOS {
+  Get-WmiObject -Class Win32_BIOS|
+    select-object -Property Manufacturer,Description,Version,SMBBIOSBIOSVersion,SerialNumber
+}
+" > $myhome/Documents/WindowsPowershell/Modules/SystemInfoFuncs/SystemInfoFuncs.psm1
+ise $myhome/Documents/WindowsPowershell/Modules/SystemInfoFuncs/SystemInfoFuncs.psm1
+
+get-module -listavailable
+
+get-command -module systeminfofuncs
+
+get-bios
+
+"
+
+function get-PCinfo {
+  gwmi -class win32_computersystem|
+    select -property Manufacturer,Model,Caption,Domain,PrimaryOwnerName,SystemType
+}
+
+function Get-OperatingSystemInfo {
+  Get-WmiObject -Class win32_operatingsystem |
+    select Manufacturer, Caption,Version,OSArchitecture,RegisteredUser,SerialNumber
+}
+" >> $myhome/Documents/WindowsPowershell/Modules/SystemInfoFuncs/SystemInfoFuncs.psm1
+
+get-module systeminfofuncs
+
+remove-module systeminfofuncs
+
+get-module systeminfofuncs
+
+import-module systeminfofuncs
+
+'
+"
++-----------------------+
+| Operating System Info |
++-----------------------+"
+get-operatingsysteminfo
+"+---------+
+| PC Info |
++---------+"
+get-pcinfo
+"+-----------+
+| BIOS Info |
++-----------+"
+get-bios
+
+' > $myhome/documents/github/comp2101/docs/powershell/sysinfo.ps1
+
+ise "$myhome/documents/github/comp2101/docs/powershell/sysinfo.ps1"

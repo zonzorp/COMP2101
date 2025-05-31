@@ -4,8 +4,6 @@ The purpose of this lab is to familiarize you with creating and running trivial 
 
 Skills exercised include basic file manipulation, permissions, script content, and comments. There are reflection questions throughout the lab which are not graded. They are there to help you self-assess whether you understand the content of the lesson. If you are unable to answer them, or are unsure of whether you can, discuss them with your professor or your classmates. Some of them will be on the tests for this course.
 
-This lab is not graded and does not count towards your semester mark. It does however provide you with skills and knowledge which you will need to be successful writing the quiz for this topic as well as providing you with some content which you will need for your Bash Assignment which is graded.
-
 ## First Scripts
 * Create all 3 of the hello world scripts from the presentation in the bash directory of your local copy of your github repository (~/COMP2101/bash). Be sure to name your files with a **.sh** extension so that GUI tools know to highlight the bash syntax. These 3 files are downloadable at [helloworld.sh](scripts-lab1/helloworld.sh), [helloworldtemplated.sh](scripts-lab1/helloworldtemplated.sh), and [helloworldugly.sh](scripts-lab1/helloworldugly.sh).
 
@@ -152,7 +150,6 @@ git push
 ```
 
 ## Grading
-There is nothing to submit for this lab. This lab exists to create a useful script and learn to use some important commands. It will provide the basis for the Bash Assignment later in the course which does count towards your semester mark. Ask your professor for help to complete this lab before starting the next lessson in this course if you are unable to complete it on your own.
-
+The scripts you create in this lab and save to your github will be considered when assessing your skills in scripting with bash. The assessment of your bash skills will be done using all of your work saved on your github at the end of the semester.
 
 ###### This document is copyright Dennis Simpson, 2013-2023.

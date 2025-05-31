@@ -145,6 +145,6 @@ sysinfo.sh
 1. Save the final version of your script to your github repository (```git add```, ```git commit -m message```, ```git push```).
 
 ## Grading
-There is nothing to submit for this lab. This lab exists to create a useful script and learn to use some important commands. It will provide the basis for the Bash Assignment later in the course which does count towards your semester mark. Ask your professor for help to complete this lab before starting the next lesson in this course if you are unable to complete it on your own.
+The scripts you create in this lab and save to your github will be considered when assessing your skills in scripting with bash. The assessment of your bash skills will be done using all of your work saved on your github at the end of the semester.
 
 ###### This document is copyright Dennis Simpson, 2013-2023.

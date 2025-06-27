@@ -6,7 +6,7 @@ This script is designed to give you practice with the skills learned in lesson 4
 This exercise practices looping with the for command and a wordlist.
 1. Download the netid.sh script
 ```bash
-wget -O ~/COMP2101/bash/netid.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab4/netid.sh
+wget -O ~/COMP2101/bash/netid.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab4/netid.sh
 chmod +x ~/COMP2101/bash/netid.sh
 ```
 1. Run it to see what it does

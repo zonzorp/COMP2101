@@ -9,7 +9,7 @@ This exercise practices working with functions in scripts.
 This exercise practices working with functions in scripts.
 1. Download the firstfunctions.sh script
 ```bash
-wget -O ~/bin/firstfunctions.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab5/firstfunctions.sh
+wget -O ~/bin/firstfunctions.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab5/firstfunctions.sh
 chmod +x ~/bin/firstfunctions.sh
 ```
 1. Run it to see what it does
@@ -28,7 +28,7 @@ firstfunctions.sh
 This exercise practices working with signals in scripts.
 1. Download the countdown.sh script
 ```bash
-wget -O ~/COMP2101/bash/countdown.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab5/countdown.sh
+wget -O ~/COMP2101/bash/countdown.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab5/countdown.sh
 chmod +x ~/COMP2101/bash/countdown.sh
 ```
 1. Run it to see what it does
@@ -48,7 +48,7 @@ This script is designed to provide useful information about your system in a sim
 This exercise practices working with hardware info and signals in scripts.
 1. Download the sysconfig.sh script
 ```bash
-wget -O ~/COMP2101/bash/sysconfig.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab5/sysconfig.sh
+wget -O ~/COMP2101/bash/sysconfig.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab5/sysconfig.sh
 chmod +x ~/COMP2101/bash/sysconfig.sh
 ```
 1. Run it to see what it does

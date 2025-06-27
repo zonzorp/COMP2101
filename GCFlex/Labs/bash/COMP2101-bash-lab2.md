@@ -30,7 +30,7 @@ getpics.sh
 This exercise practices working with arithmetic and producing useful output.
 1. Download the improveddice.sh script and do the following exercises to practice creating arithmetic statements and generating clean, useful output
 ```bash
-wget -O ~/COMP2101/bash/improveddice.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab2/improveddice.sh
+wget -O ~/COMP2101/bash/improveddice.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab2/improveddice.sh
 chmod +x ~/COMP2101/bash/improveddice.sh
 ```
 1. Run it to see what it does
@@ -49,7 +49,7 @@ improveddice.sh
 This exercise provides practice with doing arithmetic and math in a bash script
 1. Download the arithmetic-demo.sh script and do the following improvements to practice working with numbers in bash
 ```bash
-wget -O ~/COMP2101/bash/arithmetic-demo.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab2/arithmetic-demo.sh
+wget -O ~/COMP2101/bash/arithmetic-demo.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab2/arithmetic-demo.sh
 chmod +x ~/COMP2101/bash/arithmetic-demo.sh
 ```
 1. Run it to see what it does
@@ -68,7 +68,7 @@ arithmetic-demo.sh
 This exercise practices using and creating dynamic data on the command line in a script.
 1. Download the improveddice.sh script and do the following exercises to practice working with dynamic data on the command line
 ```bash
-wget -O ~/COMP2101/bash/welcome-message.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab2/welcome-example.sh
+wget -O ~/COMP2101/bash/welcome-message.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab2/welcome-example.sh
 chmod +x ~/COMP2101/bash/welcome-message.sh
 ```
 1. Run it to see what it does

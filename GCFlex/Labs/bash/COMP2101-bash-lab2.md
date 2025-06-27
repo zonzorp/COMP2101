@@ -15,7 +15,7 @@ The Pictures directory uses 4.3M space on the disk.
 #### Task:
 1. Download the script and try running it
 ```bash
-wget -O ~/COMP2101/bash/getpics.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab2/getpics.sh
+wget -O ~/COMP2101/bash/getpics.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab2/getpics.sh
 chmod +x ~/COMP2101/bash/getpics.sh
 ```
 1. Modify the script according to the tasks in the script's comments.

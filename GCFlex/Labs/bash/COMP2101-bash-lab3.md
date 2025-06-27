@@ -5,7 +5,7 @@ The purpose of this lab is to develop skills in using, storing, and manipulating
 This exercise gives some exposure to testing variable content.
 1. Download the checkMYVAR.sh script and do the following exercises to see how exporting variables can affect programs you run
  ```bash
- wget -O ~/COMP2101/bash/checkMYVAR.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab3/checkMYVAR.sh
+ wget -O ~/COMP2101/bash/checkMYVAR.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab3/checkMYVAR.sh
  chmod +x ~/COMP2101/bash/checkMYVAR.sh
  ```
 1. Run it without creating the MYVAR variable
@@ -69,7 +69,7 @@ ssh localhost
 This exercise practices testing files, numbers, and strings.
 1. Download the tests.sh script
 ```bash
-wget -O ~/COMP2101/bash/tests.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab3/tests.sh
+wget -O ~/COMP2101/bash/tests.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab3/tests.sh
 chmod +x ~/COMP2101/bash/tests.sh
 ```
 1. Run it to see what it does
@@ -87,7 +87,7 @@ tests.sh
 This exercise practices looping and testing user input.
 1. Download the guessinggame.sh script
 ```bash
-wget -O ~/COMP2101/bash/guessinggame.sh https://zonzorp.github.io/COMP2101/Labs/bash/scripts-lab3/guessinggame.sh
+wget -O ~/COMP2101/bash/guessinggame.sh https://github.com/zonzorp/COMP2101/raw/main/Labs/bash/scripts-lab3/guessinggame.sh
 chmod +x ~/COMP2101/bash/guessinggame.sh
 ```
 1. Run it to see what it does
